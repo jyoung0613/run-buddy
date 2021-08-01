@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
-    font-family:Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-    /* apply styles to <header> */
+    /*Header | Navbar Style Start */
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -43,6 +44,10 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* Header | Navbar Style End */
+
+
+/* Footer Style Start */
 footer {
     background: #fce138;
     width: 100%;
@@ -65,18 +70,11 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* End Footer Styles */
 
+/* Styles All Section Tags */
 section {
     padding: 60px;
-}
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
 }
 
 /* Hero Style Start */
@@ -133,6 +131,26 @@ section {
 }
 /* HERO FORM END */
 
+
+/* Section Title Styles Start */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+/* Section Title Styles End */
+
+/* What We Do Styles */
 .intro {
     text-align: center;
 }
@@ -144,8 +162,10 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
+/* What We Do Styles End */
 
-/* Steps section */
+
+/* What You Do Sytles Start */
 .steps {
     text-align: center;
     background: #fce138;
@@ -174,16 +194,9 @@ section {
 .step span {
     font-size: 38px;
 }
+/* What You Do Styles End */
 
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-/* Trainers section Begin */
+/* Trainers Style Start */
 .trainers {
     text-align: center;
 }
@@ -222,15 +235,8 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-/* Trainer Section End */
+/* Trainer Styles End */
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
 
 /* REACH OUT STYLES START */
 .contact {
@@ -261,8 +267,7 @@ section {
     font-size: 32px;
 }
 
-.contact-info p, 
-.contact-info address {
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
@@ -274,3 +279,13 @@ section {
 }
 
 /* REACH OUT STYLE END */
+
+
+/* Utilities */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
