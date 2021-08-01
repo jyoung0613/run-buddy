@@ -1,3 +1,4 @@
+/* Secondary Page Styles */
 .hero {
     background-position: bottom;
     height: auto;
@@ -5,16 +6,12 @@
     margin-bottom: 40px;
 }
 
-.hero h2 {
-    display:inline-block;
-}
-
 .page-title {
     color: #fce138;
     display:inline-block;
     border-bottom: 4px solid #fce138;
     padding: 0 80px 15px 80px;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 42px;
     font-style: italic;
 }
