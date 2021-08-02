@@ -46,7 +46,7 @@ header nav ul {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 1.5vw;
+    font-size: 1.55vw;
 }
 
 /* Header | Navbar Style End */
@@ -184,6 +184,10 @@ section {
 
 
 /* What You Do Sytles Start */
+.steps {
+    background: #fce138;
+}
+
 .step {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -193,7 +197,12 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #fce138;
+}
+
+.step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
 }
 
 .step-info {
@@ -210,12 +219,6 @@ section {
 
 .step-img img {
     max-width: 100%;
-}
-
-.step h3 {
-    color: #024e76;
-    font-size: 46px;
-    flex: 1 30%;
 }
 
 .step-text {
@@ -235,6 +238,14 @@ section {
 /* What You Do Styles End */
 
 /* Trainers Style Start */
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .trainer {
     margin: 20px;
     background: #024e76;
@@ -263,14 +274,6 @@ section {
 
 .trainer-bio p {
     font-size: 17px;
-}
-
-.trainers {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 /* Trainer Styles End */
 
@@ -315,10 +318,6 @@ section {
     font-style: normal;
 }
 
-.contact-info a {
-    color: #fce138;
-}
-
 .contact-form input, .contact-form textarea {
     border: 1px solid #024e76;
     display: block;
@@ -340,6 +339,9 @@ section {
     font-size: 16px;
 }
 
+.contact-info a {
+    color: #fce138;
+}
 /* REACH OUT STYLE END */
 
 
