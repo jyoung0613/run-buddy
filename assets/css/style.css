@@ -275,7 +275,7 @@ section {
 /* What We Do Styles */
 .intro p {
     line-height: 1.7;
-    color: #var(var(--tertiary-color));
+    color: (var(--tertiary-color));
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
